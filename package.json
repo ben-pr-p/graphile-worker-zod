@@ -1,0 +1,28 @@
+{
+  "name": "graphile-worker-zod",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "graphile-worker": "^0.16.2",
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.build.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ben-pr-p/kysely-access-control.git"
+  },
+  "author": "Ben Packer <ben.paul.ryan.packer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-pr-p/kysely-access-control/issues"
+  },
+  "homepage": "https://github.com/ben-pr-p/kysely-access-control"
+}

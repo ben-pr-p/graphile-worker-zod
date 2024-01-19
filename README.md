@@ -18,6 +18,7 @@ const sendEmail = createTask(
     email: z.string().email(),
   }),
   async (payload, jobHelpers) => {
+    // payload is typed as { email: string }
     // send email
   }
 )

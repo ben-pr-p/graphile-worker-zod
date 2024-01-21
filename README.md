@@ -9,7 +9,7 @@ It adds typed and validated tasks and addJob functions.
 
 ```typescript
 // worker.ts
-import { createTask, createTaskList, createAddJobFunction, AddJobFn } from 'graphile-worker-zod';
+import { createTask, createTaskList, AddJobFn } from 'graphile-worker-zod';
 import { run, TaskList } from 'graphile-worker';
 import { z } from 'zod'
 
